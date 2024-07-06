@@ -1,0 +1,170 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+    
+}
+
+.abtCoin{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    border: #7c3aed 2px solid;
+}
+
+.container{
+    border: #7c3aed 2px solid;
+    margin: 10px;
+    text-align: center;  
+    color: aqua;
+}
+
+.container:hover h3{
+    color: aquamarine;
+
+}
+
+button{
+    background-color: #7c3aed; /* Green */
+  border: none;
+  color: whitesmoke;
+  padding: 15px 15px;
+  text-align: center;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+  transform: 0.2s ease;
+}
+button:hover {
+    opacity: 80%;
+}
+.buttons{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.chart-container {
+    width: 100vw;
+    height:90vh;
+}
+.details .Title{
+    
+    margin: 10px;
+    margin-right:180px ;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+.details{
+    padding: 5px;
+    width: 110vw;
+    height: fit-content;
+    background-color: rgb(2 6 23);
+    color: white;
+    align-items: center;
+}
+.photo{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;  
+    margin-bottom: 10px;
+}
+
+.photo img{
+    margin-right:50px ;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+
+.centerer{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-size: contain; 
+    height: fit-content;
+    width: 100%;
+    margin-top: 0px;
+    background-color:  rgb(2 6 23);
+    color: white;
+    overflow-x: hidden;
+    z-index: 5;
+    border: 2px solid aqua;
+    border-radius: 4px;
+}
+.price{
+    height: 100%;
+    width: 330px ;
+    text-align: center;
+    font-size: 30px;
+}
+.price h1{
+    margin-top: 10%;
+}
+.centerer img{
+    margin-top: 3px;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    
+}
+.app{
+    scroll-snap-type: mandatory;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+    height:fit-content;
+    background-color:  rgb(2 6 23);    
+}
+.gridder{
+    padding-top: 5px;
+    margin-top: 205px;
+    height: 100%;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px  100px 100px 100px 100px 100px 100px  100px  ;
+    grid-gap: 18px;
+    scroll-snap-align:start;
+}
+.info{
+    flex-grow: 1;
+    text-align: center;
+}
+.info *{
+    margin: 5px;
+}
+.Card{
+    
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    transition: transform .2s ease;
+    color: transparent;
+    text-align: center;
+}
+
+
+.Card:hover{
+    transform: scale(1.1);
+    color:black;
+    opacity:90%;
+    text-align: center;   
+}
+.Card:hover h2{
+    background-color: white;;
+}
